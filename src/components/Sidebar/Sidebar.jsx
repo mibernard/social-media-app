@@ -32,7 +32,7 @@ const Sidebar = () => {
     },
     {
       icon: <Avatar size={'sm'} name='Matthew Bernard' src='/profilepic.png' />,
-      text: 'Profile (WIP)',
+      text: 'Profile',
       link: '/matthewbernard',
     },
   ];
