@@ -1,5 +1,5 @@
 import { Button, Input } from '@chakra-ui/react';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Login = () => {
   const [isLogin, setIsLogin] = useState(true);
