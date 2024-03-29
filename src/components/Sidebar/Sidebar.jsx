@@ -11,6 +11,7 @@ import {
 import { AiFillHome } from 'react-icons/ai';
 import { BiLogOut } from 'react-icons/bi';
 import useLogout from '../../hooks/useLogout';
+import { useNavigate } from 'react-router-dom';
 
 const Sidebar = () => {
   const sidebarItems = [
@@ -39,6 +40,11 @@ const Sidebar = () => {
   ];
 
   const { handleLogout, isLoggingOut } = useLogout();
+  const navigate = useNavigate();
+  const handleGuestContinue = () => {
+    navigate('/auth'); // Navigate to home page
+  };
+
   return (
     <Box
       height={'100vh'}
@@ -109,7 +115,8 @@ const Sidebar = () => {
           display={{ base: 'block', md: 'none' }}
         >
           <Flex
-            onClick={handleLogout}
+            // onClick={handleLogout} uncomment this and comment below for not demo purposes
+            onClick={handleGuestContinue}
             alignItems={'center'}
             gap={4}
             _hover={{ bg: 'whiteAlpha.400' }}
