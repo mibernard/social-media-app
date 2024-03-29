@@ -22,15 +22,15 @@ const Sidebar = () => {
     },
     {
       icon: <SearchLogo />,
-      text: 'Search (WIP)',
+      text: 'Search(stub)',
     },
     {
       icon: <NotificationsLogo />,
-      text: 'Notifications (WIP)',
+      text: 'Notifications(stub)',
     },
     {
       icon: <CreatePostLogo />,
-      text: 'Create (WIP)',
+      text: 'Create(stub)',
     },
     {
       icon: <Avatar size={'sm'} name='username1' src='/profilepic.png' />,
@@ -133,7 +133,7 @@ const Sidebar = () => {
               _hover={{ bg: 'transparent' }}
               isLoading={isLoggingOut}
             >
-              Logout (Finished)
+              Logout
             </Button>
           </Flex>
         </Tooltip>
