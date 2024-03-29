@@ -3,9 +3,15 @@ import React, { useState } from 'react';
 import Login from './Login';
 import Signup from './Signup';
 import GoogleAuth from './GoogleAuth';
+import { useNavigate } from 'react-router-dom';
 
 const AuthForm = () => {
   const [isLogin, setIsLogin] = useState(true);
+
+  const navigate = useNavigate();
+  const handleGuestContinue = () => {
+    navigate('/'); // Navigate to home page
+  };
 
   return (
     <>
@@ -35,6 +41,11 @@ const AuthForm = () => {
           </Box>
           <Box onClick={() => setIsLogin(!isLogin)} color={'blue.500'} cursor={'pointer'}>
             {isLogin ? 'Sign Up' : 'Log In '}
+          </Box>
+        </Flex>
+        <Flex justifyContent='center'>
+          <Box color={'blue.500'} cursor={'pointer'} onClick={handleGuestContinue}>
+            Continue as Guest
           </Box>
         </Flex>
       </Box>

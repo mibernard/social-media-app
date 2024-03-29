@@ -10,21 +10,34 @@ const PageLayout = ({ children }) => {
   const [user, loading] = useAuthState(auth);
   const canRenderSidebar = pathname !== '/auth' && user;
   const canRenderNavbar = !user && !loading && pathname !== '/auth';
+  const canRender = pathname !== '/auth';
 
   const checkingUserIsAuth = !user && loading;
   if (checkingUserIsAuth) return <PageLayoutSpinner></PageLayoutSpinner>;
 
   return (
-    <Flex flexDir={canRenderNavbar ? 'column' : 'row'}>
-      {/* sidebar on the left */}
-      {canRenderSidebar ? (
+    // <Flex flexDir={canRenderNavbar ? 'column' : 'row'}>
+    //   {/* sidebar on the left */}
+    //   {canRenderSidebar ? (
+    //     <Box w={{ base: '70px', md: '240px' }}>
+    //       <Sidebar />
+    //     </Box>
+    //   ) : null}
+    //   {/* navbar */}
+    //   {canRenderNavbar ? <Navbar></Navbar> : null}
+    //   {/* page content on the right */}
+    //   <Box flex={1} mx={'auto'}>
+    //     {children}
+    //   </Box>
+    // </Flex>
+
+    //for demo purposes (when finished delete below code and uncomment above)
+    <Flex flexDir='row'>
+      {canRender ? (
         <Box w={{ base: '70px', md: '240px' }}>
           <Sidebar />
         </Box>
       ) : null}
-      {/* navbar */}
-      {canRenderNavbar ? <Navbar></Navbar> : null}
-      {/* page content on the right */}
       <Box flex={1} mx={'auto'}>
         {children}
       </Box>

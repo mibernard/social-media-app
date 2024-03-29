@@ -80,7 +80,7 @@ const ProfilePost = ({ img }) => {
                   <Flex alignItems={'center'} gap={4}>
                     <Avatar src='/profilepic.png' size={'sm'} name='matthewbernard'></Avatar>
                     <Text fontWeight={'bold'} fontSize={12}>
-                      mthwbrnd
+                      username1
                     </Text>
                   </Flex>
                   <Box _hover={{ bg: 'whiteAlpha.300', color: 'red.600' }} borderRadius={4} p={1}>
@@ -91,111 +91,111 @@ const ProfilePost = ({ img }) => {
                 <VStack w={'full'} alignItems={'start'} maxH={'350px'} overflowY={'auto'}>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                   <Comment
                     createdAt='1d ago'
-                    username='mthwbrnd'
+                    username='username1'
                     profilePic='/profilepic.png'
-                    text={'Dummy images from unsplash'}
+                    text={'comment'}
                   ></Comment>
                 </VStack>
                 <Divider my={4} bg={'gray.800'}></Divider>
